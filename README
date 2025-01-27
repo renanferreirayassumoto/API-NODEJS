@@ -11,11 +11,11 @@ Este é um projeto Node.js criado para demonstrar funcionalidades de um servidor
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/renanferreirayassumoto/ProjetoNode.git
+    git clone https://github.com/renanferreirayassumoto/API-NODEJS.git
     ```
 2. Navegue até o diretório do projeto:
     ```sh
-    cd ProjetoNode
+    cd API-NODEJS
     ```
 3. Instale as dependências:
     ```sh
@@ -48,11 +48,11 @@ O servidor estará rodando em `http://localhost:3000`.
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE] para mais detalhes.
 
 ## Contato
 
-Renan - [renanferreirayassumoto@gmail.com](mailto:renanferreirayassumoto@gmail.com)
+Renan - [renanferreirayassumoto@gmail.com]
 
 ## Tecnologias Utilizadas
 
@@ -92,4 +92,4 @@ Este projeto foi desenvolvido com foco em boas práticas de desenvolvimento, inc
 
 Para mais informações, entre em contato:
 
-Renan - [seu-email@example.com](mailto:seu-email@example.com)
+Renan - [renanferreirayassumoto@gmail.com]

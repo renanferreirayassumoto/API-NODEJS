@@ -1,0 +1,95 @@
+# Projeto Node
+
+Este é um projeto Node.js criado para demonstrar funcionalidades de um servidor Node.js.
+
+## Pré-requisitos
+
+- Node.js instalado (versão 14 ou superior)
+- npm (gerenciador de pacotes do Node.js)
+
+## Instalação
+
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/renanferreirayassumoto/ProjetoNode.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd ProjetoNode
+    ```
+3. Instale as dependências:
+    ```sh
+    npm install
+    ```
+
+## Uso
+
+Para iniciar o servidor, execute o seguinte comando:
+```sh
+npm start
+```
+
+O servidor estará rodando em `http://localhost:3000`.
+
+## Estrutura do Projeto
+
+- `index.js`: Arquivo principal do servidor.
+- `package.json`: Arquivo de configuração do npm.
+- `routes/`: Diretório contendo as rotas da aplicação.
+- `controllers/`: Diretório contendo os controladores da aplicação.
+
+## Contribuição
+
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`).
+4. Faça o push para a branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Renan - [renanferreirayassumoto@gmail.com](mailto:renanferreirayassumoto@gmail.com)
+
+## Tecnologias Utilizadas
+
+Este projeto utiliza diversas tecnologias modernas para garantir um desenvolvimento eficiente e um desempenho robusto:
+
+- **Node.js**: Plataforma de desenvolvimento que permite a execução de código JavaScript no lado do servidor.
+- **Express**: Framework para Node.js que facilita a criação de aplicações web e APIs.
+- **Sequelize**: ORM (Object-Relational Mapper) para Node.js que simplifica a interação com bancos de dados SQL.
+- **Redis**: Banco de dados em memória utilizado para cache e melhoria de performance.
+
+## Funcionalidades
+
+- **Autenticação e Autorização**: Sistema de login seguro com controle de acesso baseado em permissões.
+- **CRUD de Usuários**: Funcionalidades completas de criação, leitura, atualização e exclusão de usuários.
+- **Cache com Redis**: Implementação de cache para melhorar a performance das consultas ao banco de dados.
+
+## Estrutura do Projeto
+
+A estrutura do projeto foi organizada de forma a garantir a escalabilidade e a manutenção do código:
+
+- `index.js`: Ponto de entrada da aplicação.
+- `config/`: Configurações da aplicação, incluindo banco de dados e outras variáveis de ambiente.
+- `models/`: Definição dos modelos de dados utilizando Sequelize.
+- `routes/`: Definição das rotas da aplicação.
+- `controllers/`: Lógica de negócios e manipulação de dados.
+- `middlewares/`: Middlewares para tratamento de requisições e respostas.
+
+## Diferenciais
+
+Este projeto foi desenvolvido com foco em boas práticas de desenvolvimento, incluindo:
+
+- **Código Limpo**: Seguindo padrões de código limpo para facilitar a leitura e manutenção.
+- **Testes Automatizados**: Implementação de testes unitários e de integração para garantir a qualidade do código.
+- **Documentação Completa**: Documentação detalhada para facilitar a compreensão e contribuição de novos desenvolvedores.
+
+## Contato
+
+Para mais informações, entre em contato:
+
+Renan - [seu-email@example.com](mailto:seu-email@example.com)
